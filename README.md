@@ -2,7 +2,9 @@
  Estos son los ejercicios realizados para la asignatura de programacion a lo largo del primer curso del grado (**_Los boletines estan ordenados por niveles de dificultad._**)
  
   ## [PHYTON]()
-   En este tema empezamos desde 0 con ejercicios en los que damos la sintaxis del lenjuage de Phyton **basica, condicionales, bucles, listas, cadenas, funciones y orientacion a objetos.**
+  ![PYTHON](https://cosasdedevs.com/media/sections/images/python_5ceegEf.png)
+  
+  En este tema empezamos desde 0 con ejercicios en los que damos la sintaxis del lenjuage de Phyton **basica, condicionales, bucles, listas, cadenas, funciones orientacion a objetos.**
     
     ### [Boletin_1]()
      Primeros ejercicios, algunos principios basicos de informatica y algo de logica.
@@ -32,4 +34,5 @@
      Ejercicios de **Python** de funciones, junto a los condicionales y los bucles; un poco mas avanzados.
  
   ## [JAVA]()
+  ![JAVA](https://i.blogs.es/53044d/java/1366_521.jpg)
    En este tema empezamos desde 0 con ejercicios en los que damos la sintaxis del lenjuage de Java.
