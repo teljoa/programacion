@@ -1,8 +1,8 @@
 # Programacion 1ª DAW 
- Estos son los ejercicios realizados para la asignatura de programacion a lo largo del primer curso del grado (**_en cada carpeta esta el correspondiente boletin_**)
+ Estos son los ejercicios realizados para la asignatura de programacion a lo largo del primer curso del grado (**_Los boletines estan ordenados por niveles de dificultad._**)
  
   ## [PHYTON]()
-   En este tema empezamos desde 0 con ejercicios en los que damos la sintaxis del lenjuage de Phyton **basica, condicionales, bucles, listas, cadenas, funciones y orientacion a objetos**.
+   En este tema empezamos desde 0 con ejercicios en los que damos la sintaxis del lenjuage de Phyton **basica, condicionales, bucles, listas, cadenas, funciones y orientacion a objetos.**
     
     ### [Boletin_1]()
      Primeros ejercicios, algunos principios basicos de informatica y algo de logica.
@@ -32,4 +32,4 @@
      Ejercicios de **Python** de funciones, junto a los condicionales y los bucles; un poco mas avanzados.
  
   ## [JAVA]()
-    En este tema empezamos desde 0 con ejercicios en los que damos la sintaxis del lenjuage de Java
+   En este tema empezamos desde 0 con ejercicios en los que damos la sintaxis del lenjuage de Java.
