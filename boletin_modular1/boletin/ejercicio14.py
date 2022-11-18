@@ -4,8 +4,7 @@ Si dos o más cadenas miden lo mismo y son las más largas, la función devolver
 que tenga el mayor número de caracteres repetidos .
 '''
 
-lista = ['isodjgiksgjñljksegñk']
-lista = ['krljheeeeeeeeeeeeesósdkñljgl']
+lista = ["fkledsjfkljdkjiasjopsiej","dksjflkjsoldñaszkf","uisakfhuihfli"]
 
 def contarLetra(cadena,letra):
     k = 0
