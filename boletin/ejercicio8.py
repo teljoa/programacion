@@ -1,0 +1,21 @@
+'''
+8. Design a method called solveSecondOrderEquation that receives three integer
+positive numbers corresponding to the coefficients of a second order equation
+(ax2+bx+c=0) and computes its possible solutions. If the parameters are not valid the
+method should return None.
+'''
+
+import cmath
+
+a = 1
+b = 5
+c = 6
+
+
+d = (b**2) - (4*a*c)
+
+
+sol1 = (-b-cmath.sqrt(d))/(2*a)
+sol2 = (-b+cmath.sqrt(d))/(2*a)
+
+print('The solution are {0} and {1}'.format(sol1,sol2))
