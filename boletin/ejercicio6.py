@@ -4,84 +4,64 @@ real, integer, positive or negative) and should return the number of digits it c
 the parameter is not valid the method should return None. Extend this function to
 other numeric systems (hexadecimal, decimal, binary, octal).
 '''
-def getNumberOfDigitsDecimal(cad):
-    cad = str(cad)
-    k=0
-    decimal = False
-    for n in range(len(cad)):
-        if cad[n].isnumeric():
-            k +=1
-        elif cad[n] == '.' and not decimal and (n != (len(cad)-1)) and (n != 0):
-            if (n == 1 and (cad [0] in '+-')):
-                return None
-            else:
-                decimal = True
-        elif (cad[n] == '+' or cad[n] == '-') and n == 0:
-            pass
+def esbinario(tmp):
+    valido = True
+    for i in range(len(str(tmp))):
+        if str(tmp)[i] not in ["0","1","-1","0.","1.","-1."]:
+            valido = False
+    
+    return valido
+
+def esdecimal(tmp):
+    valido = True
+    for i in range(len(str(tmp))):
+        if not(type (tmp) == int):
+            valido = False
+    
+    return valido
+
+def esoctal(tmp):
+    valido = True
+    for i in range(len(str(tmp))):
+        if str(tmp)[i] not in ["0","1","2","3","4","5","6","7","-1","-2","-3","-4","-5","-6","-7","0.","1.","2.","3.","4.","5.","6.","7.","-1.","-2.","-3.","-4.","-5.","-6.","-7."]:
+            valido = False
+    
+    return valido
+        
+def eshex(tmp):
+    valido = True
+    for i in range(len(str(tmp))):
+        if str(tmp)[i] not in ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f","-1","-2","-3","-4","-5","-6","-7","-8","-9","-a","-b","-c","-d","-e","-f"]:
+            valido = False
+    
+    return valido
+
+def getNumberOfDigits(opcion,tmp):
+    if opcion=="a":
+        if eshex(tmp) == True:
+            print("valido")
         else:
-            return None
-    return k
-
-def getNumberOfDigitsBinary(cad):
-    cad = str(cad)
-    k=0
-    decimal = False
-    for n in range(len(cad)):
-        if cad[n] in '01':
-            k +=1
-        elif cad[n] == '.' and not decimal and (n != (len(cad)-1)) and (n != 0):
-            if (n == 1 and (cad [0] in '+-')):
-                return None
-            else:
-                decimal = True
-        elif (cad[n] == '+' or cad[n] == '-') and n == 0:
-            pass
+            None
+    elif opcion=="b":
+        if esdecimal(tmp) == True:
+            print("valido")
         else:
-            return None
-    return k
-
-def getNumberOfDigitsOctal(cad):
-    cad = str(cad)
-    k=0
-    decimal = False
-    for n in range(len(cad)):
-        if cad[n] in '01234567':
-            k +=1
-        elif cad[n] == '.' and not decimal and (n != (len(cad)-1)) and (n != 0):
-            if (n == 1 and (cad [0] in '+-')):
-                return None
-            else:
-                decimal = True
-        elif (cad[n] == '+' or cad[n] == '-') and n == 0:
-            pass
+            None
+    elif opcion=="c":
+        if esbinario(tmp) == True:
+            print("valido")
         else:
-            return None
-    return k
-
-def getNumberOfDigitsHexa(cad):
-    cad = str(cad).upper()
-    k=0
-    decimal = False
-    for n in range(len(cad)):
-        if cad[n] in '01234567890ABCDEF':
-            k +=1
-        elif cad[n] == '.' and not decimal and (n != (len(cad)-1)) and (n != 0):
-            if (n == 1 and (cad [0] in '+-')):
-                return None
-            else:
-                decimal = True
-        elif (cad[n] == '+' or cad[n] == '-') and n == 0:
-            pass
+            None
+    elif opcion=="d":
+        if esoctal(tmp) == True:
+            print("valido")
         else:
-            return None
-    return k  
+            None
+    else:
+        print("Opcion no valida")
 
 
-
-print(getNumberOfDigitsDecimal('-10'))
-
-print(getNumberOfDigitsBinary('0010'))
-
-print(getNumberOfDigitsOctal('-100'))
-
-print(getNumberOfDigitsHexa('10F'))
+(getNumberOfDigits("a",110))
+(getNumberOfDigits("b",110))
+(getNumberOfDigits("c",110))
+(getNumberOfDigits("d",110))
