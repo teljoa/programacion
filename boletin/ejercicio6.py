@@ -4,10 +4,11 @@ real, integer, positive or negative) and should return the number of digits it c
 the parameter is not valid the method should return None. Extend this function to
 other numeric systems (hexadecimal, decimal, binary, octal).
 '''
+
 def esbinario(tmp):
     valido = True
     for i in range(len(str(tmp))):
-        if str(tmp)[i] not in ["0","1","-1","0.","1.","-1."]:
+        if str(tmp)[i] not in ["0","1","-1","0.","1.","-1.","-0."]:
             valido = False
     
     return valido
@@ -15,7 +16,7 @@ def esbinario(tmp):
 def esdecimal(tmp):
     valido = True
     for i in range(len(str(tmp))):
-        if not(type (tmp) == int):
+        if not((type (tmp) == float) or (type (tmp) == int)):
             valido = False
     
     return valido
@@ -23,7 +24,7 @@ def esdecimal(tmp):
 def esoctal(tmp):
     valido = True
     for i in range(len(str(tmp))):
-        if str(tmp)[i] not in ["0","1","2","3","4","5","6","7","-1","-2","-3","-4","-5","-6","-7","0.","1.","2.","3.","4.","5.","6.","7.","-1.","-2.","-3.","-4.","-5.","-6.","-7."]:
+        if str(tmp)[i] not in ["0","1","2","3","4","5","6","7","-1","-2","-3","-4","-5","-6","-7","0.","1.","2.","3.","4.","5.","6.","7.","-1.","-2.","-3.","-4.","-5.","-6.","-7.","-0."]:
             valido = False
     
     return valido
@@ -31,7 +32,7 @@ def esoctal(tmp):
 def eshex(tmp):
     valido = True
     for i in range(len(str(tmp))):
-        if str(tmp)[i] not in ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f","-1","-2","-3","-4","-5","-6","-7","-8","-9","-a","-b","-c","-d","-e","-f"]:
+        if str(tmp)[i] not in ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f","-1","-2","-3","-4","-5","-6","-7","-8","-9","-a","-b","-c","-d","-e","-f","0.","1.","2.","3.","4.","5.","6.","7.","8.","9.","a.","b.","c.","d.","e.","f.","-1.","-2.","-3.","-4.","-5.","-6.","-7.","-8.","-9.","-a.","-b.","-c.","-d.","-e.","-f.","-0."]:
             valido = False
     
     return valido
@@ -58,7 +59,7 @@ def getNumberOfDigits(opcion,tmp):
         else:
             None
     else:
-        print("Opcion no valida")
+        None
 
 
 (getNumberOfDigits("a",110))
