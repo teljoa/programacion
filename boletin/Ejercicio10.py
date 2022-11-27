@@ -30,7 +30,7 @@ def gcd(a, b):
         return b
     return gcd(b % a, a)
 
-def checkFriendly(n, m):
+def isFriendNumber(n, m):
     sumFactors_n = sumofFactors(n)
     sumFactors_m = sumofFactors(m)
     gcd_n = gcd(n, sumFactors_n)
@@ -45,7 +45,7 @@ def checkFriendly(n, m):
 
 n = 24 
 m = 42
-if(checkFriendly(n, m)):
+if(isFriendNumber(n, m)):
     print("Yes")
 else:
     print("No")
