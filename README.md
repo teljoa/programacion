@@ -29,18 +29,18 @@
    #### [Boletin_7](https://github.com/teljoa/programacion/tree/master/python/Tema1/Boletin7)
    Segimos con los ejercicios de **Python** con condicionales y bucles.
    
-   ####[Entregas](https://github.com/teljoa/programacion/tree/master/python/Tema1/Entregas)
+   #### [Entregas](https://github.com/teljoa/programacion/tree/master/python/Tema1/Entregas)
    Esta carpeta contiene los archivos que tienen que ver con ejercicios individuales o ejercicios de pruebas de un dia especifico.
    
-   #####[Octubre-I](https://github.com/teljoa/programacion/tree/master/python/Tema1/Entregas/Octubre-I)
+   ##### [Octubre-I](https://github.com/teljoa/programacion/tree/master/python/Tema1/Entregas/Octubre-I)
    
-   #####[Octubre-II](https://github.com/teljoa/programacion/tree/master/python/Tema1/Entregas/Octubre-II)
+   ##### [Octubre-II](https://github.com/teljoa/programacion/tree/master/python/Tema1/Entregas/Octubre-II)
    
-   #####[Octubre-21](https://github.com/teljoa/programacion/tree/master/python/Tema1/Entregas/Octubre-21)
+   ##### [Octubre-21](https://github.com/teljoa/programacion/tree/master/python/Tema1/Entregas/Octubre-21)
    
-   #####[Octrubre-28](https://github.com/teljoa/programacion/tree/master/python/Tema1/Entregas/Octubre-28)
+   ##### [Octrubre-28](https://github.com/teljoa/programacion/tree/master/python/Tema1/Entregas/Octubre-28)
    
-   ###[Tema2](https://github.com/teljoa/programacion/tree/master/python/Tema2)
+   ### [Tema2](https://github.com/teljoa/programacion/tree/master/python/Tema2)
    En este tema en lo que nos centraremos sera en las funciones, ademas de recordar too los del tema anterior.
 
    #### [Boletin_Modular_I](https://github.com/teljoa/programacion/tree/master/python/Tema2/Programaci%C3%B3n%20Modular%20I/boletin_modular1/boletin_modular1/boletin)
@@ -49,29 +49,29 @@
    #### [Boletin_Modular_II](https://github.com/teljoa/programacion/tree/master/python/Tema2/Modular%20Programming%20II/boletin/boletin)
    Ejercicios de **Python** de funciones, junto a los condicionales y los bucles; un poco mas avanzados.
    
-   ####[Boletin Modular III](https://github.com/teljoa/programacion/tree/master/python/Tema2/Modular%20Programming%20III%20-%20Strings/boletin_modular3/boletin_modular3/ejercicios)
+   #### [Boletin Modular III](https://github.com/teljoa/programacion/tree/master/python/Tema2/Modular%20Programming%20III%20-%20Strings/boletin_modular3/boletin_modular3/ejercicios)
    Ejercicios de **Python** de funciones, junto a los condicionales y los bucles; un poco mas avanzados.
    
-   ####[Boletin Modular IV](https://github.com/teljoa/programacion/tree/master/python/Tema2/Programaci%C3%B3n%20Modular%20IV/boletin_modular4/boletin_modular4)
+   #### [Boletin Modular IV](https://github.com/teljoa/programacion/tree/master/python/Tema2/Programaci%C3%B3n%20Modular%20IV/boletin_modular4/boletin_modular4)
    Ejercicios de **Python** de funciones, junto a los condicionales y los bucles; un poco mas avanzados.
    
-   ####[Boletin Modular V](https://github.com/teljoa/programacion/tree/master/python/Tema2/Programaci%C3%B3n%20Modular%20V)
+   #### [Boletin Modular V](https://github.com/teljoa/programacion/tree/master/python/Tema2/Programaci%C3%B3n%20Modular%20V)
    Un ejercicio el cual consiste en un menu complejo sobre la gestion de una gasolinera.
    
-   ####[Entregas](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas)
+   #### [Entregas](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas)
    Esta carpeta contiene los archivos que tienen que ver con ejercicios individuales o ejercicios de pruebas de un dia especifico.
    
-   #####[Noviembre-04](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas/04-11-22)
+   ##### [Noviembre-04](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas/04-11-22)
    
-   #####[Noviembre-21](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas/21-11-22)
+   ##### [Noviembre-21](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas/21-11-22)
    
-   #####[Noviembre-24](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas/24-11-22)
+   ##### [Noviembre-24](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas/24-11-22)
    
-   #####[Noviembre-29](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas/29-11-22)
+   ##### [Noviembre-29](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas/29-11-22)
    
-   #####[Creacion de proyectos](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas/Creacion%20de%20proyectos/edu-ws/edu-ws/15_11_Prueba)
+   ##### [Creacion de proyectos](https://github.com/teljoa/programacion/tree/master/python/Tema2/Entregas/Creacion%20de%20proyectos/edu-ws/edu-ws/15_11_Prueba)
    
-   ####[Examen](https://github.com/teljoa/programacion/tree/master/python/Tema2/Examenes/13-12-22/Joaquin%20Garcia%20Tellez/Joaquin%20Garcia%20Tellez/pruba-13-12/Ejercicios)
+   #### [Examen](https://github.com/teljoa/programacion/tree/master/python/Tema2/Examenes/13-12-22/Joaquin%20Garcia%20Tellez/Joaquin%20Garcia%20Tellez/pruba-13-12/Ejercicios)
    En esta carpeta se encuentra mis respuesta al examen correspondiente de funciones.
 
   ## [JAVA]()
